@@ -12,7 +12,7 @@ import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
 
-//TODO 3 : Define room database class and prepopulate database using JSON
+//TODO 3 : Define room database class and prepopulate database using JSON *Done
 @Database(entities = [Task::class], version = 1, exportSchema = false)
 abstract class TaskDatabase : RoomDatabase() {
 
